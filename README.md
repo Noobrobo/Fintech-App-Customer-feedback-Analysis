@@ -59,21 +59,7 @@ Raw Reviews (Column D) → Analysis Engine → Classified Themes (Columns F, G, 
 
 ---
 
-## 📋 Setup Instructions
-
-### 1. Google Sheets Preparation
-```
-Column A: Review ID
-Column B: App Name  
-Column C: Rating
-Column D: Review Text (Primary Input)
-Column E: Product Category (Optional)
-Column F: Theme 1 (Output)
-Column G: Theme 2 (Output)  
-Column H: Theme 3 (Output)
-```
-
-### 2. Regex Formula Implementation
+### 1. Regex Formula Implementation
 Place this formula in **Column E** for product classification:
 
 ```excel
@@ -90,13 +76,13 @@ Place this formula in **Column E** for product classification:
 )
 ```
 
-### 3. Apps Script Installation
+### 2. Apps Script Installation
 1. Open **Google Sheets** → Extensions → Apps Script
 2. Replace default code with the provided script
 3. Save and authorize permissions
 4. Return to sheet - new menu "Review Analysis" will appear
 
-### 4. Running the Analysis
+### 3. Running the Analysis
 - Click **Review Analysis** → **Analyze Reviews**
 - Script processes all reviews in Column D
 - Results populate in Columns F, G, H automatically
