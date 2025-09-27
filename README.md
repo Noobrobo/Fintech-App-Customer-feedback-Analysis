@@ -271,19 +271,3 @@ ORDER BY Review_Count DESC
 - **Annually**: Comprehensive dictionary update and theme restructuring
 
 ---
-
-## 📄 License & Usage
-
-This project is available for educational and commercial use. Attribution appreciated but not required.
-
-### Citation
-```
-Review Analysis Automation with Google Apps Script
-GitHub: [Your Repository URL]
-Author: [Your Name]
-Year: 2024
-```
-
----
-
-**Built for comprehensive fintech app review analysis and business intelligence.**
